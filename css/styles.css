@@ -1,0 +1,91 @@
+/* ELEMENTOS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #35363A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 40%;
+    border-radius: 100%;
+}
+
+
+
+
+/* CLASSES */
+.cabecalho {
+    background-color: #191a1b;
+    height: 40px;
+    width: 100%;
+}
+
+.div-cabecalho {
+    padding: 10px;
+}
+
+.div-cabecalho-esquerdo {
+    display: inline;
+    background-color: white;
+}
+
+.div-cabecalho-direito {
+    display: inline;
+    float: right;
+}
+
+.span-cabecalho-logo {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.span-cabecalho-logo:hover {
+    color: #3D9EBB;
+    background-color: #191a1b;
+}
+
+.span-cabecalho {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.span-cabecalho:hover {
+    color: black;
+    background-color: white;
+}
+
+.div-dados-titulos {
+    text-align: left;
+    font-size: 50px;
+    margin: 30px 0 0 50px;
+}
+
+.h2-dados {
+    font-size: 45px;
+    color: #3d9ebb;
+}
+
+.div-dados {
+    display: inline-block;
+    font-size: 30px;
+    text-align: left;
+    margin: 15px 50px;
+    width: 51%;
+}
+
+
+.titulo {
+    color: white;
+    width: 50%;
+}
